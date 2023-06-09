@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LandingPage from '../views/LandingPage.vue'
 import ListarCamisetasPage from '../views/ListarCamisetasPage.vue'
 import CrearCamisetaPage from '../views/CrearCamisetaPage.vue'
+import CrearCamisetaPage2 from '../views/CrearCamisetaPage2.vue'
 import DetalleCamisetaPage from '../views/DetalleCamisetaPage.vue'
 import NosotrosPage from '../views/NosotrosPage.vue'
 
@@ -31,6 +32,11 @@ const routes = [
     path: '/nosotros',
     name: 'nosotros',
     component: NosotrosPage
+  },
+  {
+    path: '/crear-camiseta2',
+    name: 'crear-camiseta2',
+    component: CrearCamisetaPage2
   }
 ]
 
