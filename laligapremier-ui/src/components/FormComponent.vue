@@ -1,8 +1,10 @@
 <template>
-    <div class="form-floating mb-3">
-        <!-- <InputFormComponent :nombre="equipoLabel" :input="inputText"></InputFormComponent> -->
-
-        <slot name="componenteSlot"></slot>
+    <div class="container py-4">
+        
+        <div class="form-floating mb-3">    
+            <slot name="componenteSlot">
+            </slot>            
+        </div>
     </div>
 </template>
 <script setup>
