@@ -72,6 +72,9 @@
                             <li class="nav-item">
                                 <a class="nav-link">Clásicas</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/donaciones">Donaciones</a>
+                            </li>
                         </ul>
 
                         <!-- Parte central del navbar -->

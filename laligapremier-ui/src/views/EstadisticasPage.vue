@@ -3,6 +3,8 @@
   <h1 class="mt-5">Usuarios Registrados: {{ usuariosDB.length }}</h1>
   <h1 class="mt-5">Número de Pedidos: {{ carritosBD.length }}</h1>
   <h1 class="mt-5">Ganancias Totales: ${{ ganancias }}</h1>
+  <h1 class="mt-5">Escuelas Inscritas: 5</h1>
+  <h1 class="mt-5">Donaciones Totales: $234.520</h1>
 </template>
 
 <script>

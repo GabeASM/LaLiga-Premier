@@ -76,6 +76,28 @@
         </div>
       </div>
 
+      <!-- Recicladas -->
+      <div class="contenedor-filtro">
+        <h4>Origen</h4>
+
+        <div class="opciones-filtro">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Nuevas
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+              Recicladas
+            </label>
+          </div>
+
+        </div>
+      </div>
+
       <!-- Precios -->
       <div class="contenedor-filtro">
         <h4>Precio</h4>

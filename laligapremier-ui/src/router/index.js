@@ -9,7 +9,8 @@ import RegistroCamisetasPage from '../views/RegistroCamisetasPage.vue'
 import RegistrarDatosRelevantesPage from '../views/RegistrarDatosRelevantesPage.vue'
 import EstadisticasPage from '../views/EstadisticasPage.vue'
 import EditarCamisetaPage from '../views/EditarCamisetaPage.vue'
-
+import DonacionesPage from '../views/DonacionesPage.vue'
+import EscuelasPage from '../views/EscuelasPage.vue'
 
 const routes = [
   {
@@ -61,6 +62,16 @@ const routes = [
     path:'/editar-camiseta/:idCamiseta',
     name: 'editar-camiseta',
     component : EditarCamisetaPage 
+  },
+  {
+    path:'/donaciones',
+    name: 'donaciones',
+    component : DonacionesPage 
+  },
+  {
+    path:'/escuelas',
+    name: 'escuelas',
+    component : EscuelasPage 
   }
 ]
 

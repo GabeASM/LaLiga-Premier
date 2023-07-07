@@ -255,9 +255,9 @@ async function filtrarCamisetas(req, res) {
         const { nombre, marca, precioMinimo, precioMaximo, equipo, epoca } = req.query;
         const filtros = {};
 
-        console.log(`nombre de la camiseta ----> ${marca}`);
-        console.log(`nombre de la camiseta ----> ${precioMaximo}`);
-        console.log(`nombre de la camiseta ----> ${precioMinimo}`);
+        console.log(`marca de la camiseta ----> ${marca}`);
+        console.log(`precioMaximo de la camiseta ----> ${precioMaximo}`);
+        console.log(`precioMinimo de la camiseta ----> ${precioMinimo}`);
 
 
 
